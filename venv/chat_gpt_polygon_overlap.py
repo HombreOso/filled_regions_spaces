@@ -151,7 +151,7 @@ def intersection(e1, e2):
         if t >= 0 and t <= 1 and u >= 0 and u <= 1:
             # x = p1.x + t * dx1
             # y = p1.y + t * dy1
-
+            # amended formula
             x = ((p1.x*q1.y - p1.y*q1.x)*dx2 - (p2.x*q2.y-p2.y*q2.x)*dx1) / det
             y = ((p1.x*q1.y - p1.y*q1.x)*dy2 - (p2.x*q2.y-p2.y*q2.x)*dy1) / det
 
