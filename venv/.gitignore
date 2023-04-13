@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+*.docx
+*.pdf
+venv/Lib\site-packages*
+venv/Scripts*
+share\man*
+
